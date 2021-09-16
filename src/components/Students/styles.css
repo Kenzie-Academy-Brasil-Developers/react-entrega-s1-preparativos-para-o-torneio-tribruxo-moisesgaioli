@@ -1,0 +1,13 @@
+.btn-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 100px;
+    width: 300px;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+
+.home-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title {
+    color: #F5F5F5;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 95px;
+    margin-bottom: 19px;
+}
+
+.home-text {
+    color: #F5F5F5;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 57px;
+    width: 414px;
+    text-align: center;
+}
