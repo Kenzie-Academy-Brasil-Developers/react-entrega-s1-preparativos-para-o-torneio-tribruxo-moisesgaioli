@@ -11,3 +11,9 @@
     justify-content: center;
     padding: 30px;
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .btn-back {
+        width: 130px;
+    }
+}

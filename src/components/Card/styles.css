@@ -6,6 +6,10 @@
     padding-top: 225px;
 }
 
+.card {
+    margin: 20px;
+}
+
 .card-img {
     width: 311px;
     height: 383px;

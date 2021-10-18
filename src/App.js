@@ -13,7 +13,7 @@ function App() {
     fetch("https://hp-api.herokuapp.com/api/characters/students")
     .then(res => res.json())
     .then(res => setPerson(res))
-    .catch(error => console.log("Erro na api"));
+    .catch(_ => console.log("Erro na api"));
   }, [])
 
   const handleClick = () => {
@@ -24,7 +24,7 @@ function App() {
 
   const validatePersonRandom = () => {
 
-    let arrayRandomPerson = []
+    const arrayRandomPerson = []
 
     for (let i = 0; i < person.length; i++) {
       if(arrayRandomPerson.length < 3) {
@@ -33,15 +33,12 @@ function App() {
         if (!arrayRandomPerson.find(item => item.name === pessoa.name || item.house === pessoa.house)) {
           arrayRandomPerson.push(pessoa)
         }
-
       }
     }
 
     handleClick()
 
     setPersonRandom(arrayRandomPerson)
-
-    return personRandom
   } 
 
   return (

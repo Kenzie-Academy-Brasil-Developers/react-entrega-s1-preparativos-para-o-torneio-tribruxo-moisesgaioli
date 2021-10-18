@@ -28,3 +28,18 @@
     width: 414px;
     text-align: center;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .home-title {
+        font-size: 40px;
+    }
+
+    .home-text{
+        font-size: 30px;
+    }
+
+    .btn-home {
+        width: 300px;
+    }
+}
+ 
